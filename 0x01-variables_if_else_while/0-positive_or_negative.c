@@ -23,5 +23,8 @@ else
 {
 printf("%d is negative\n", n);
 }
+/**
+ * this is the main part of this code
+ */
 return (0);
 }
