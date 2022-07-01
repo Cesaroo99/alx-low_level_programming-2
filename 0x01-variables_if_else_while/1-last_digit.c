@@ -17,7 +17,7 @@ ld = n % 10;
 
 if (ld > 5)
 {
-printf()"Last digit of %d is % and is 0\n", n, ld);
+printf("Last digit of %d is % and is 0\n", n, ld);
 }
 else if (ld == 0)
 {
