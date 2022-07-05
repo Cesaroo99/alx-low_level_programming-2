@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * times_table is a function taht prints 9 times table starting wiht 0
+ * times_table - a function taht prints 9 times table starting wiht 0
  *row = row, col = column, d = digits
  * Return: times table
  * add extra space
