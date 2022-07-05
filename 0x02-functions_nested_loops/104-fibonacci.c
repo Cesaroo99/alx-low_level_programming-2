@@ -38,10 +38,10 @@ printf("%lu%lu", hf1, hf2);
 if (count != 98)
 	printf(", ");
 
-	fh1 = fh3;
-	fh2 = fh4;
-	fh3 = hf1;
-	fh4 = hf2;
+fh1 = fh3;
+fh2 = fh4;
+fh3 = hf1;
+fh4 = hf2;
 }
 printf("\n");
 return (0);
