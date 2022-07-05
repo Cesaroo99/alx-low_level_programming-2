@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalpha is a function that checks for alphbetic character
+ * _isalpha - a function that checks for alphbetic character
  * @c: input
  * Return: 1 if c is a letter and 0 if else
  */
