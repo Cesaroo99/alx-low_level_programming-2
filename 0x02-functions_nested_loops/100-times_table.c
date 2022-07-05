@@ -28,7 +28,7 @@ void print_times_table(int n)
 	}
 	else if (p <= 99 && p >= 10)
 	{
-	_putchar((prod % 10) + '0');
+	_putchar((p % 10) + '0');
 	}
 	_putchar((p % 10) + '0');
 	}
