@@ -22,6 +22,6 @@ if ((fs % 2) == 0)
 f1 = f2;
 f2 = fs;
 }
-print("%.0f\n", ts);
+printf("%.0f\n", ts);
 return (0);
 }
