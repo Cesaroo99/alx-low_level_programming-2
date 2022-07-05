@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_to_98 is a function that prints all natural numbers from n to 98
- * n = user's input
+ * print_to_98 - a function that prints all natural numbers from n to 98
+ * @n: user's input
  * Return: Always 0 (Success)
  */
-int print_to_98(int n)
+void print_to_98(int n)
 {
 if (n < 98)
 {
