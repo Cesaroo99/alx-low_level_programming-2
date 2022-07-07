@@ -6,9 +6,10 @@
  * Return: Always 0
  */
 
-void prinnt_most_numbers(void)
+void print_most_numbers(void)
 {
-int a;
+
+	int a;
 
 for (a = 48; a < 58; a++)
 {
