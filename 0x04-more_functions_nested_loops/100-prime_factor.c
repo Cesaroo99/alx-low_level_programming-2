@@ -16,7 +16,7 @@ int main(void)
 	{
 	while (x % y == 0)
 	{
-	x = s / y;
+	x = x / y;
 	}
 	}
 	printf("%lu", y);
