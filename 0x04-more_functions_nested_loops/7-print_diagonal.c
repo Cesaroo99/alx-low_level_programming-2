@@ -3,6 +3,7 @@
 /**
  * print_diagonal - checks for digit also
  * @n: variable
+ *
  * Return: Always 0
  */
 void print_diagonal(int n)
