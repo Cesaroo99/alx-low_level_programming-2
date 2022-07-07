@@ -17,7 +17,7 @@ if (a > b && b > c)
 else if (a > b && b < c)
 {
 if (a > c)
-	l =a;
+	l = a;
 else
 	l = c;
 }
