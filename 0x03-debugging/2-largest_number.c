@@ -23,7 +23,7 @@ else
 }
 else if (b > a && a > c)
 	l = b;
-	else if (b > a && a < c)
+else if (b > a && a < c)
 {
 if (b > c)
 	l = b;
@@ -32,7 +32,7 @@ else
 }
 else if (a == b && a == c)
 	l = a;
-	else
+else
 {
 if ((a == b && a > c) || (a == c && a > b) || (b == c && a > b))
 	l = a;
