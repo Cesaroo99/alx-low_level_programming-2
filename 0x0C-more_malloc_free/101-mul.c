@@ -32,7 +32,7 @@ int *int_calloc(int nmemb, unsigned int size)
 void mult(int *product, char *n1, char *n2, int len1, int len2)
 {
 	int i, j, f1, f2, sum;
-	for (i = len 1 - 1; i >= 0; i--)
+	for (i = len1 - 1; i >= 0; i--)
 	{
 		sum = 0;
 		f1 = n1[i] - '0';
@@ -40,7 +40,7 @@ void mult(int *product, char *n1, char *n2, int len1, int len2)
 		{
 			f2 = n2[j] - '0';
 			sum += product[i + j + 1] + (f1 * f2);
-			product[i +j + 1] = sum % 10;
+			product[i + j + 1] = sum % 10;
 			sum /= 10;
 		}
 		if (sum > 0)
@@ -117,7 +117,7 @@ int main(int argc, char **argv)
 				len2++;
 		}
 	}
-	re = int_calloc(len1 + len2, sizeof(int));
+	res = int_calloc(len1 + len2, sizeof(int));
 	if (res == NULL)
 		err(98);
 	mult(res, argv[1], argv[2], len1, len2);
