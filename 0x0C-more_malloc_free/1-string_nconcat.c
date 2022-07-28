@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * sytring_nconcat - prints a concatenated string
+ * string_nconcat - prints a concatenated string
  * @s1: input 1
  * @s2: input 2
  * @n: lenght of s2
