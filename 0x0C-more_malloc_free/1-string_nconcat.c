@@ -5,7 +5,7 @@
  * @s1: input 1
  * @s2: input 2
  * @n: lenght of s2
- * Return: Nothong
+ * Return: Nothing
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
