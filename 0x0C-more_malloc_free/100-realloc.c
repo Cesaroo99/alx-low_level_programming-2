@@ -30,6 +30,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 
 	if (p == NULL)
 		return (NULL);
+
 	if (ptr == NULL)
 		return (p);
 
@@ -51,7 +52,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 
 	while (i < n)
 	{
-		*(dest + 1) = *(src + i);
+		*(dest + i) = *(src + i);
 		i++;
 	}
 	return (dest);
