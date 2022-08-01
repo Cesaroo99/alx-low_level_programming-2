@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_dog _ function that prints dog
+ * print_dog - function that prints dog
  * @d: struct entr
  */
 void print_dog(struct dog *d)
@@ -12,7 +12,7 @@ void print_dog(struct dog *d)
 		if (d->name == NULL)
 			printf("Name: %p\n", (void *)d->name);
 		else
-			printf("Name: %s\n', d->name);
+			printf("Name: %s\n", d->name);
 		printf("Age: %f\n", d->age);
 		if (d->owner == NULL)
 			printf("Owner: %p\n", (void *)d->owner);
