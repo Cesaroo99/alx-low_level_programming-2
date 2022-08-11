@@ -4,7 +4,7 @@
  * @h: points to the head
  * Return: size_t
  */
-size_t list_len(const list_t *t)
+size_t list_len(const list_t *h)
 {
 	int nodes = 0;
 
