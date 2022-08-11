@@ -3,7 +3,7 @@
 
 /**
  * add_node_end - adds nodes at the end
- * @haed: points to the head
+ * @head: points to the head
  * @str: the string to input
  * Return: pointer to new node
  */
