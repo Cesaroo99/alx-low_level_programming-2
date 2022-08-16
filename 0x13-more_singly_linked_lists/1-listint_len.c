@@ -4,7 +4,7 @@
  * listint_len - returns the number
  * @h: pointer to the list
  * Return: number
- * */
+ */
 size_t listint_len(const listint_t *h)
 {
 	const listint_t *node = h;
