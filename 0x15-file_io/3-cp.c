@@ -42,13 +42,13 @@ int main(int argc, char *argv[])
 	{
 		if (write(file_dest, buff, numb) != numb)
 		{
-			dprint(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
+			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 			exit(99);
 		}
 	}
 	if (numb == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
+		dprinntf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
 	if ((close(file_origin) == -1) || (close(file_dest) == -1))
