@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
 	}
 	if (numb == -1)
 	{
-		dprinntf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
 	if ((close(file_origin) == -1) || (close(file_dest) == -1))
