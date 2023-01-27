@@ -18,16 +18,23 @@ int recursive_search(int *array, size_t size, int value)
 		return (-1);
 
 	printf("Searching in array");
+
 	for (i = 0; i < size; i++)
 		printf("%s %d", (i == 0) ? ":" : ",", array[i]);
+
 	printf("\n");
+
 	if (half && size % 2 == 0)
 		helf--;
+
 	if (value == array[half])
 		return ((int)half);
+
 	if (value < array[half])
 		return (recursive_search(array, half, value));
+	
 	half++;
+	
 	return (recursive_search(array + half, size - half, value) + half);
 }
 
@@ -48,5 +55,6 @@ int binary_search(int *array, size_t size, int value)
 
 	if (index >= 0 && array[index] != value)
 		return (-1);
+	
 	return (index);
 }
